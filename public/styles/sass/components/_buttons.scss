@@ -1,0 +1,30 @@
+.start__button{
+    position: absolute;
+    // position: relative;
+    width: 30%;
+    bottom: 5%;
+    left: 38%;
+    background-color:$color-green-primary;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    padding: .7rem 1.2rem;
+    // transform: translate(-50%, -50%);
+    transition: all .2s;
+    &--text{
+        font-size: 2rem;    
+    }
+
+    &:hover{
+        border: 2px solid $color-grey-very-dark;
+        color: $color-grey-light-1;
+        transform: translateY(-2px);
+        box-shadow: $shadow-default;
+    }
+
+    &:active{
+        color: $color-grey-light-1;
+        transform:translateY(0);
+        box-shadow: 0 .2rem 1.5rem rgba($color-black, .29);
+    }
+}

@@ -1,0 +1,58 @@
+.heading{
+    &--primary{
+        font-size: 3.8rem;
+        letter-spacing: .5rem;
+        font-weight: 400;
+        font-family: $font-secondary;
+        margin-bottom: 2rem;
+        color: $color-orange-1;
+        border-bottom: 2px solid $color-orange-1;
+        display: inline-block;
+    }
+
+    &--secondary{
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        width: 80%;
+        margin: 0 auto;
+        font-family: $font-secondary;
+    }
+
+    &--tertiary{
+        font-size: 2.5rem;
+        letter-spacing: .3rem;
+        font-family: $font-secondary;
+        font-weight: 400;
+        color: $color-orange-1;
+        display: inline-block;
+        border-bottom: 2px solid $color-orange-1;
+        position: relative;
+        top: 0; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.logo__container{
+    box-shadow: $shadow-logo;
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    top: 1rem;
+    right: 3rem;
+    background-color: white;
+    border-bottom: 1px solid $color-grey-dark-1;
+    border-radius: 50%;
+    &--logo{
+            font-size: 5rem;
+            background-image: linear-gradient(to bottom,
+            $color-orange-1 30%,
+            $color-grey-dark-1);
+            background-clip: text;
+            color: transparent;
+            position: absolute;
+            margin-left: 30%;
+            text-align: center;
+    }
+}

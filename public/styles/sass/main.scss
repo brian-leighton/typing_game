@@ -1,0 +1,15 @@
+// ABSTRACTS
+@import "abstracts/variables";
+@import "abstracts/animations";
+
+// BASE
+@import "base/base"; 
+@import "base/typography";
+@import "base/utilities";
+
+//COMPONENTS
+@import "components/buttons";
+@import "components/completedWords";
+@import "components/timer";
+@import "components/textInput";
+@import "components/displayedWords";
